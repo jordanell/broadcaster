@@ -27,6 +27,9 @@ defmodule Broadcaster.ConnCase do
 
       import Broadcaster.Router.Helpers
 
+      # Customer helpers
+      import Broadcaster.RenderJson
+
       # The default endpoint for testing
       @endpoint Broadcaster.Endpoint
     end
